@@ -5,7 +5,7 @@ public class Year {
 
 		// WAP program to check a year is leap year or not
 		int y = 2013;
-		if (y % 4 == 0)// checking if the no is leap or not
+		if (y % 4 == 0)// checking if the year is leap or not
 		{
 			System.out.println(y + " is a leap year");
 		} else {
