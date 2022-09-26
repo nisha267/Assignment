@@ -1,5 +1,5 @@
 package demo;
-
+//WAP to know a no is prime or not
 public class Prime_no {
 
 	public static void main(String args[]) {
