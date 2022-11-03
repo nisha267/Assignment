@@ -1,14 +1,25 @@
-package Practical.com;
+package assignment;
 
-public class CopyArray {
-	public static void main(String[] args) {
-		
-	//declaring a source array
-char[]copyFrom= {'d','e','c','f','f','e','i','n'};
-//declaring a destination array
-char[]copyTo=new char[7];//new array
-System.arraycopy(copyFrom,2,copyTo,0,5);
-//print the array
-System.out.println(String.valueOf(copyTo));
-}
-}
+//2. Write a Java program to copy an array by iterating the array.
+
+public class CopyArray //main class
+{
+	public static void main(String[] args) //main method
+	{
+		int[]arr= {23,78,56,76,90};//taking an array
+		int[]copy=arr;//taking another array to copy
+		System.out.println("The original array is");
+		//printing original array
+		for(int i=0;i<arr.length;i++) {
+			System.out.println(arr[i]+" ");
+			
+		}
+		//printing copied array
+		System.out.println("The copied array is");
+		for(int i=0;i<copy.length;i++) //printing the elements of original array into copied array
+		{
+			System.out.println(arr[i]+" ");
+			
+	}
+
+}}
